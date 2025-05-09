@@ -1,0 +1,300 @@
+{
+  "CountryName": "Israel",
+  "LeagueData": [
+    {
+      "ID": 1,
+      "Name": "Israeli Premier League",
+      "ShortName": "Ligat Ha'Al",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/d/d5/Ligat_Ha%27Al_Logo_2023.svg/1200px-Ligat_Ha%27Al_Logo_2023.svg.png"
+    },
+    {
+      "ID": 2,
+      "Name": "Liga Leumit",
+      "ShortName": "Liga Leumit",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/7/7d/Liga_Leumit_Logo_2022.svg/1200px-Liga_Leumit_Logo_2022.svg.png"
+    }
+  ],
+  "ClubData": [
+    // Israeli Premier League Clubs (LeagueID 1) - IDs 101-114
+    {
+      "ID": 101,
+      "LeagueID": 1,
+      "Name": "Maccabi Tel Aviv",
+      "ShortName": "MTA",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Maccabi_Tel_Aviv_FC.svg/1200px-Maccabi_Tel_Aviv_FC.svg.png",
+      "StadiumID": 301
+    },
+    {
+      "ID": 102,
+      "Name": "Maccabi Haifa",
+      "ShortName": "MHA",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Maccabi_Haifa_FC_logo.svg/1200px-Maccabi_Haifa_FC_logo.svg.png",
+      "StadiumID": 302
+    },
+    {
+      "ID": 103,
+      "Name": "Hapoel Be'er Sheva",
+      "ShortName": "HBS",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Hapoel_Be%27er_Sheva_logo.svg/1200px-Hapoel_Be%27er_Sheva_logo.svg.png",
+      "StadiumID": 303
+    },
+    {
+      "ID": 104,
+      "Name": "Beitar Jerusalem",
+      "ShortName": "BJR",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Beitar_Jerusalem_Logo.svg/1200px-Beitar_Jerusalem_Logo.svg.png",
+      "StadiumID": 304
+    },
+    {
+      "ID": 105,
+      "Name": "Hapoel Haifa",
+      "ShortName": "HHA",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Hapoel_Haifa_logo.svg/1200px-Hapoel_Haifa_logo.svg.png",
+      "StadiumID": 302
+    },
+    {
+      "ID": 106,
+      "Name": "Maccabi Netanya",
+      "ShortName": "MNE",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Maccabi_Netanya_FC_logo.svg/1200px-Maccabi_Netanya_FC_logo.svg.png",
+      "StadiumID": 305
+    },
+    {
+      "ID": 107,
+      "Name": "Bnei Sakhnin",
+      "ShortName": "BSK",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Bnei_Sakhnin_F.C._logo.svg/1200px-Bnei_Sakhnin_F.C._logo.svg.png",
+      "StadiumID": 306
+    },
+    {
+      "ID": 108,
+      "Name": "Hapoel Jerusalem",
+      "ShortName": "HJE",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Hapoel_Jerusalem_F.C.logo%282020%29.svg/1200px-Hapoel_Jerusalem_F.C.logo%282020%29.svg.png",
+      "StadiumID": 304
+    },
+    {
+      "ID": 109,
+      "Name": "Maccabi Bnei Reineh",
+      "ShortName": "MBR",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/5/5e/Maccabi_Bnei_Reineh.svg/1200px-Maccabi_Bnei_Reineh.svg.png",
+      "StadiumID": 307 // Green Stadium
+    },
+    {
+      "ID": 110,
+      "Name": "Maccabi Petah Tikva",
+      "ShortName": "MPT",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Maccabi_Petah_Tikva_F.C._logo.svg/1200px-Maccabi_Petah_Tikva_F.C._logo.svg.png",
+      "StadiumID": 308
+    },
+    {
+      "ID": 111,
+      "Name": "F.C. Ashdod",
+      "ShortName": "ASH",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/FC_Ashdod_logo.svg/1200px-FC_Ashdod_logo.svg.png",
+      "StadiumID": 309
+    },
+    {
+      "ID": 112,
+      "Name": "Hapoel Hadera",
+      "ShortName": "HHD",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Hapoel_Hadera_logo.svg/1200px-Hapoel_Hadera_logo.svg.png",
+      "StadiumID": 305 // Netanya Stadium (often used)
+    },
+    {
+      "ID": 113,
+      "Name": "Ironi Kiryat Shmona",
+      "ShortName": "IKS",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Hapoel_Ironi_Kiryat_Shmona_F.C._logo.svg/1200px-Hapoel_Ironi_Kiryat_Shmona_F.C._logo.svg.png",
+      "StadiumID": 310
+    },
+    {
+      "ID": 114,
+      "Name": "Ironi Tiberias",
+      "ShortName": "ITB",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/a/a7/Ironi_Tiberias_2015.png", // Placeholder, might need update
+      "StadiumID": 311
+    },
+
+    // Liga Leumit Clubs (LeagueID 2) - IDs 201-216
+    {
+      "ID": 201,
+      "LeagueID": 2,
+      "Name": "Hapoel Tel Aviv",
+      "ShortName": "HTA",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Hapoel_Tel_Aviv_F.C._logo.svg/1200px-Hapoel_Tel_Aviv_F.C._logo.svg.png",
+      "StadiumID": 301
+    },
+    {
+      "ID": 202,
+      "LeagueID": 2,
+      "Name": "Hapoel Petah Tikva",
+      "ShortName": "HPT",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Hapoel_Petah_Tikva_logo.svg/1200px-Hapoel_Petah_Tikva_logo.svg.png",
+      "StadiumID": 308
+    },
+    {
+      "ID": 203,
+      "LeagueID": 2,
+      "Name": "Bnei Yehuda Tel Aviv",
+      "ShortName": "BYT",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bnei_Yehuda_Tel_Aviv_F.C._logo.svg/1200px-Bnei_Yehuda_Tel_Aviv_F.C._logo.svg.png",
+      "StadiumID": 301 // Bloomfield
+    },
+    {
+      "ID": 204,
+      "LeagueID": 2,
+      "Name": "F.C. Kafr Qasim",
+      "ShortName": "FKQ",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/3/3f/MS_Kafr_Qasim_2019.png/1200px-MS_Kafr_Qasim_2019.png",
+      "StadiumID": 312 // Lod Municipal Stadium (often used)
+    },
+    {
+      "ID": 205,
+      "LeagueID": 2,
+      "Name": "Hapoel Acre",
+      "ShortName": "HAC",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Hapoel_Acre_F.C._logo.svg/1200px-Hapoel_Acre_F.C._logo.svg.png",
+      "StadiumID": 313
+    },
+    {
+      "ID": 206,
+      "LeagueID": 2,
+      "Name": "Hapoel Afula",
+      "ShortName": "HAF",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Hapoel_Afula_F.C._logo.svg/1200px-Hapoel_Afula_F.C._logo.svg.png",
+      "StadiumID": 314
+    },
+    {
+      "ID": 207,
+      "LeagueID": 2,
+      "Name": "Hapoel Kfar Saba",
+      "ShortName": "HKS",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Hapoel_Kfar_Saba_F.C._logo.svg/1200px-Hapoel_Kfar_Saba_F.C._logo.svg.png",
+      "StadiumID": 315
+    },
+    {
+      "ID": 208,
+      "LeagueID": 2,
+      "Name": "Hapoel Kfar Shalem",
+      "ShortName": "HFS",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/5/5c/Hapoel_Kfar_Shalem_Logo.png",
+      "StadiumID": 316 // Hatikva Neighborhood Stadium
+    },
+    {
+      "ID": 209,
+      "LeagueID": 2,
+      "Name": "Hapoel Nof HaGalil",
+      "ShortName": "HNG",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Hapoel_Nof_HaGalil_F.C._logo.svg/1200px-Hapoel_Nof_HaGalil_F.C._logo.svg.png",
+      "StadiumID": 307 // Green Stadium
+    },
+    {
+      "ID": 210,
+      "LeagueID": 2,
+      "Name": "Hapoel Ra'anana",
+      "ShortName": "HRA",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Hapoel_Ra%27anana_A.F.C._logo.svg/1200px-Hapoel_Ra%27anana_A.F.C._logo.svg.png",
+      "StadiumID": 315 // Levita Stadium (shared historically) or other
+    },
+    {
+      "ID": 211,
+      "LeagueID": 2,
+      "Name": "Hapoel Ramat Gan",
+      "ShortName": "HRG",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Hapoel_Ramat_Gan_Giv%27atayim_F.C._logo.svg/1200px-Hapoel_Ramat_Gan_Giv%27atayim_F.C._logo.svg.png",
+      "StadiumID": 317
+    },
+    {
+      "ID": 212,
+      "LeagueID": 2,
+      "Name": "Hapoel Ramat HaSharon",
+      "ShortName": "HRH",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Hapoel_Ironi_Nir_Ramat_HaSharon_F.C._logo.svg/1200px-Hapoel_Ironi_Nir_Ramat_HaSharon_F.C._logo.svg.png",
+      "StadiumID": 318
+    },
+    {
+      "ID": 213,
+      "LeagueID": 2,
+      "Name": "Hapoel Rishon LeZion",
+      "ShortName": "HRL",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Hapoel_Rishon_LeZion_F.C._logo.svg/1200px-Hapoel_Rishon_LeZion_F.C._logo.svg.png",
+      "StadiumID": 319
+    },
+    {
+      "ID": 214,
+      "LeagueID": 2,
+      "Name": "Hapoel Umm al-Fahm",
+      "ShortName": "HUF",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Hapoel_Umm_al-Fahm_Current_Logo.png/1200px-Hapoel_Umm_al-Fahm_Current_Logo.png",
+      "StadiumID": 320
+    },
+    {
+      "ID": 215,
+      "LeagueID": 2,
+      "Name": "Maccabi Kabilio Jaffa",
+      "ShortName": "MKJ",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/1/17/Maccabi_Kabilio_Jaffa_logo_2018.png/1200px-Maccabi_Kabilio_Jaffa_logo_2018.png",
+      "StadiumID": 316 // Hatikva Neighborhood Stadium
+    },
+    {
+      "ID": 216,
+      "LeagueID": 2,
+      "Name": "Maccabi Herzliya",
+      "ShortName": "MHE",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Maccabi_Herzliya_logo.svg/1200px-Maccabi_Herzliya_logo.svg.png",
+      "StadiumID": 321
+    }
+  ],
+  "PlayerData": [
+    // Example Players for Maccabi Tel Aviv (ClubID 101) - Add more as needed
+    { "ID": 101001, "ClubID": 101, "Forename": "Eran", "Surname": "Zahavi", "ImageURL": "" },
+    { "ID": 101002, "ClubID": 101, "Forename": "Dor", "Surname": "Peretz", "ImageURL": "" },
+    { "ID": 101003, "ClubID": 101, "Forename": "Daniel", "Surname": "Tenenbaum", "ImageURL": "" },
+    // Example Players for Maccabi Haifa (ClubID 102)
+    { "ID": 102001, "ClubID": 102, "Forename": "Lior", "Surname": "Refaelov", "ImageURL": "" },
+    { "ID": 102002, "ClubID": 102, "Forename": "Frantzdy", "Surname": "Pierrot", "ImageURL": "" },
+    { "ID": 102003, "ClubID": 102, "Forename": "Abdoulaye", "Surname": "Seck", "ImageURL": "" },
+    // Example Players for Hapoel Be'er Sheva (ClubID 103)
+    { "ID": 103001, "ClubID": 103, "Forename": "Miguel", "Surname": "Vitor", "ImageURL": "" },
+    { "ID": 103002, "ClubID": 103, "Forename": "Alon", "Surname": "Turgeman", "ImageURL": "" },
+    // Example Players for Hapoel Tel Aviv (ClubID 201)
+    { "ID": 201001, "ClubID": 201, "Forename": "Stav", "Surname": "Turiel", "ImageURL": "" },
+    { "ID": 201002, "ClubID": 201, "Forename": "Ran", "Surname": "Binyamin", "ImageURL": "" }
+    // ... (Continue adding a few representative players for other clubs)
+    // Due to the vast number of players, only a small sample is provided here.
+    // Player ImageURLs are omitted as they are difficult to source comprehensively.
+  ],
+  "CupData": [
+    {
+      "ID": 501,
+      "Name": "Israel State Cup",
+      "ShortName": "State Cup",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/he/thumb/1/16/Israel_State_Cup.svg/1200px-Israel_State_Cup.svg.png" // Example URL, actual official current logo URL might differ
+    }
+  ],
+  "StadiumData": [
+    { "ID": 301, "Name": "Bloomfield Stadium", "City": "Tel Aviv" },
+    { "ID": 302, "Name": "Sammy Ofer Stadium", "City": "Haifa" },
+    { "ID": 303, "Name": "Turner Stadium", "City": "Be'er Sheva" },
+    { "ID": 304, "Name": "Teddy Stadium", "City": "Jerusalem" },
+    { "ID": 305, "Name": "Netanya Stadium", "City": "Netanya" },
+    { "ID": 306, "Name": "Doha Stadium", "City": "Sakhnin" },
+    { "ID": 307, "Name": "Green Stadium", "City": "Nof HaGalil" }, // Also used by M. Bnei Reineh, Ironi Tiberias
+    { "ID": 308, "Name": "HaMoshava Stadium", "City": "Petah Tikva" },
+    { "ID": 309, "Name": "Yud-Alef Stadium", "City": "Ashdod" },
+    { "ID": 310, "Name": "Kiryat Shmona Municipal Stadium", "City": "Kiryat Shmona" },
+    { "ID": 311, "Name": "Tiberias Municipal Stadium", "City": "Tiberias" }, // Ironi Tiberias (Primary or Green)
+    { "ID": 312, "Name": "Lod Municipal Stadium", "City": "Lod" },
+    { "ID": 313, "Name": "Acre Municipal Stadium", "City": "Acre" },
+    { "ID": 314, "Name": "Afula Illit Stadium", "City": "Afula" },
+    { "ID": 315, "Name": "Levita Stadium", "City": "Kfar Saba" },
+    { "ID": 316, "Name": "Hatikva Neighborhood Stadium", "City": "Tel Aviv" },
+    { "ID": 317, "Name": "Ramat Gan Stadium", "City": "Ramat Gan" },
+    { "ID": 318, "Name": "Grundman Stadium", "City": "Ramat HaSharon" },
+    { "ID": 319, "Name": "Haberfeld Stadium", "City": "Rishon LeZion" },
+    { "ID": 320, "Name": "HaShalom Stadium", "City": "Umm al-Fahm" },
+    { "ID": 321, "Name": "Herzliya Municipal Stadium", "City": "Herzliya" }
+    // Add more stadiums if needed and link them via StadiumID in ClubData
+  ]
+}
